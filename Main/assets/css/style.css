@@ -219,13 +219,30 @@ main {
   color: var(--secondary);
 }
 
+/* Picture of me */
+
+#Me {
+  display: inline-flex;
+  height: 50vh;
+  float: left;
+  transition: all;
+  padding-left: 0% ;
+
+}
+
+
 /* portfolio project images */
 .run-buddy {
   background-image: url("../images/02-run-buddy.jpg");
 }
 
+
 .led-wall {
   background-image: url("../images/02-portfolio-1.jpg");
+}
+
+.led-wall:hover{
+transform: scale(1.5);
 }
 
 .react-calc {
@@ -273,6 +290,8 @@ main {
     text-align: left;
     font-size: 7vw;
   }
+
+ 
 }
 
 @media screen and (max-width: 768px) {
@@ -286,12 +305,35 @@ main {
   }
 
   .hero-banner {
+    /* white-space: pre-wrap; */
     justify-content: center;
+    text-align: left;
+    /* display: table-caption; */
+  }
+
+  .hero-banner h2 {
+    white-space: nowrap;
+    /* display: table-caption; */
+    /* position: relative; */
+    display: block;
     text-align: center;
+    position: relative;
+    clear: left;
   }
 
   .contact address {
     flex-direction: column;
     align-items: flex-start;
   }
-}
+
+  #Me {
+    /* display: block; */
+    left: 50%;
+    right: 50%;
+    /* max-height: 25vh; */
+    /* width: auto; */
+    /* position: relative;
+    right: 9%; */
+    /* display: list-item; */
+  }
+} 
