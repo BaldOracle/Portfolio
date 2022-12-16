@@ -31,6 +31,8 @@ WHEN I click on the images of the applications
 THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
+```
+
 
 ## Installation
 
@@ -69,6 +71,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[alt-text](./images/Website-screenshot.jpg) "Website mock up" )
-
+[Alt text](Main/assets/images/Website-screenshot.jpg)
 [deploy-link](https://baldoracle.github.io/Module-2-Challenge/)
