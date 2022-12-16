@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Shaun Murphy Digital Greatness </title>
-  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
@@ -23,18 +23,20 @@
 
   <!-- image and background -->
   <!-- Need to add a CSS class for this section to format -->
-  <section>
+  <section class="Top-banner">
     <div>
-      <img src="./assets/images/Me.jpg" alt="A cool guy named Shaun">
-    </div>
-    <div>
-      <h2>The amazing Work of Shaun</h2>
+      <Section id="Me">
+        <img src="./assets/images/Me.jpg" alt="A cool guy named Shaun">
+      </Section>
+      <section>
+        <h2>The amazing Work of Shaun</h2>
+      </section>
     </div>
   </section>
 
   <!--paragraph about me   -->
-  <main>
-    <section id="About">
+  <main class="Main-wrapper">
+    <section class="About-section" id="About">
       <h2>About Me</h2>
       <div>
         <p> 
@@ -51,54 +53,56 @@
     </section>
 
     <!-- My work section -->
-    <section id="Work">
+    <section class = "Work-section" id="Work">
       <h2>My Work</h2>
-      <div>
-        <a href="https://baldoracle.github.io/Prework-Study-Guide/">
-          <div>
-            <h3>Pre-work Study Guide</h3>
-          </div>
-        </a>
+      <div class="flex-container">
 
-        <a href="https://baldoracle.github.io/Module-1-Challenge/">
-          <div>
-            <h3>Module 1 Challenge</h3>
-          </div>
-        </a>
-
-        <a href="https://www.wafflehouse.com/">
-          <div>
-            <h3>Waffle House</h3>
-            <span>I have eaten here</span>
-          </div>
-        </a>
-
-        <a href="https://nj.gov/">
-          <div>
-            <h3>New Jersey</h3>
-            <span>I have lived here</span>
-          </div>
-        </a>
-
-        <a href="https://www.valdosta.edu/">
+        <a Class="VSU flex-item" href="https://www.valdosta.edu/">
           <div>
             <h3>Valdosta State University</h3>
             <span>I have learned here</span>
           </div>
         </a>
 
+        <a class="flex-item Module" href="https://baldoracle.github.io/Module-1-Challenge/">
+          <div>
+            <h3>Module 1 Challenge</h3>
+          </div>
+        </a>
+
+        <a class="flex-item Waffle" href="https://www.wafflehouse.com/">
+          <div>
+            <h3>Waffle House</h3>
+            <span>I have eaten here</span>
+          </div>
+        </a>
+
+        <a Class="flex-item NJ" href="https://nj.gov/">
+          <div>
+            <h3>New Jersey</h3>
+            <span>I have lived here</span>
+          </div>
+        </a>
+
+        <a class="flex-item Pre" href="https://baldoracle.github.io/Prework-Study-Guide/">
+          <div>
+            <h3>Pre-work Study Guide</h3>
+          </div>
+        </a>
+
+
       </div>
     </section>
 
     <!-- Contact information -->
-    <section id="Contact">
+    <section class="Contact-section" id="Contact">
       <h2>Contact Me</h2>
-      <div>
+      <div >
         <address>
           <a href="tel:+17068178522">706-817-8522</a>
-          <a href="mailto:sdmurphy861@gmail.com">sdmurphy861@gmail.com</a>
-          <a href="https://github.com/BaldOracle">Github</a>
-          <a href="https://www.linkedin.com/in/shaun-murphy-752029b3/">Linkedin</a>
+          <a href="mailto:sdmurphy861@gmail.com">sdmurphy861@gmail.com    </a>
+          <a href="https://github.com/BaldOracle">Github    </a>
+          <a href="https://www.linkedin.com/in/shaun-murphy-752029b3/">Linkedin   </a>
         </address>
       </div>
     </section>

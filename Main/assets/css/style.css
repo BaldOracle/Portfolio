@@ -1,0 +1,272 @@
+*{
+  box-sizing: border-box;
+}
+
+/* Color palette */
+:root {
+  --primary: #324ECA;
+  --secondary: #112e16;
+  --tertiary: #52a7a7;
+  --dark: #0C0E0E;
+  --light: #F7F9F2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Chalkduster', 'monospace', 'Trebuchet', sans-serif;
+  color: var(--secondary);
+  background-color: var(--tertiary);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  padding: 15px 6% 15px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: var(--tertiary);
+  box-shadow: 0 5px 35px rgba(109, 219, 223, 0.4);
+}
+
+header h1 {
+  color: var(--tertiary);
+  background-color: var(--secondary);
+  padding: 5px 1% 5px 6%;
+  margin: 0;
+  font-size: 5vw;
+  line-height: 1;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+nav a {
+  padding: 5px 10px;
+  color: var(--secondary);
+  margin-right: 10px;
+  background-size: 100% 0.2em;
+  transition: all 0.25s ease-in;
+  font-size: 1.4rem;
+}
+
+nav a:hover {
+  background-size: 100% 100%;
+  transform: scale(1.25);
+  color: var(--primary);
+}
+
+main {
+  margin-top: 20px;
+  margin-bottom: 45px;
+}
+
+
+/* CSS for banner */
+.Top-banner {
+  background-image: url(../images/Background.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 30vh;
+  color: var(--dark);
+  padding: 2% 6%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: left;
+}
+
+.Top-banner div {
+  flex: 0 0 80%;
+}
+
+.Top-banner h2 {
+  margin: 5;
+  padding: 10px 10px;
+  font-size: 2.5rem;
+  line-height: 1.25;
+  display: table-caption;
+}
+
+/* CSS for picture in banner*/
+#Me {
+  display: inline-flex;
+  height: 50vh;
+  float: right;
+  transition: all;
+  padding-left: 0% ;
+
+}
+
+/* Main section CSS */
+.Main-wrapper {
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Main-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+/* Each section header CSS */
+.About-section > h2 {
+  padding-right: 15px;
+  border-bottom: 5px solid;
+  font-size: 75px;
+  line-height: 1.1;
+}
+
+.About-section p {
+  margin-bottom: 25px;
+}
+
+p {
+  margin: 0;
+}
+.About-section > div {
+  flex: right;
+}
+
+.Work-section > h2 {
+  padding-right: 15px;
+  border-bottom: 5px solid;
+  font-size: 75px;
+  line-height: 1.1;
+}
+
+
+.Contact-section > h2 {
+  padding-right: 15px;
+  border-bottom: 5px solid;
+  font-size: 65px;
+  line-height: 1.1;
+}
+
+.Contact-section a {
+  justify-items: right;
+  justify-content: space-evenly;
+  padding: 10px;
+  border-left-style: double;
+}
+
+
+/* Center the links https://www.w3schools.com/css/css_align.asp */
+.Contact-section div {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+
+/* flex box https://www.w3schools.com/css/css3_flexbox_container.asp */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.flex-item {
+  border: 3px solid var(--secondary);
+  min-height: 150px;
+  max-height: 150px;
+  flex-basis: calc(50% - 1em);
+  display: table-caption;
+  align-items: flex-end;
+  padding: 0 0 20px 0;
+  margin: 0.5em;
+  text-decoration: none;
+}
+
+.flex-item:first-child {
+  min-height: 300px;
+  flex-basis: 100%;
+}
+
+.flex-item div {
+  background-color: var(--light);
+  padding: left;
+}
+
+/* CSS for all pictures added hover feature. Custom class for VSU to be the largest.  */
+
+.Module {
+  background-image: url(../images/Module-1.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #0C0E0E;
+  } 
+
+.Module:hover {
+  transform: scale(1.05);
+}
+
+.NJ {
+  background-image: url(../images/New-Jersey.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #0C0E0E;
+} 
+
+.NJ:hover {
+  transform: scale(1.05);
+}
+
+.Pre {
+  background-image: url(../images/pre-work.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #0C0E0E;
+} 
+
+.Pre:hover {
+  transform: scale(1.05);
+}
+
+.VSU {
+  background-image: url(../images/VSU.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #0C0E0E;
+  /* min-width: 1000px;
+  max-width: 1000px;
+  min-height: 400px;
+  margin-left: auto;
+  margin-right: auto; */
+} 
+
+.VSU:hover {
+  transform: scale(1.05);
+}
+
+.Waffle {
+  background-image: url(../images/Waffle-house.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #0C0E0E;
+} 
+
+.Waffle:hover {
+  transform: scale(1.05);
+ }
+
