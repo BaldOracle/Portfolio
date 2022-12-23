@@ -71,5 +71,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+<img src="Main/assets/images/Website-screenshot.jpg" alt="Screenshot">
 [Alt text](Main/assets/images/Website-screenshot.jpg)
 [deploy-link](https://baldoracle.github.io/Module-2-Challenge/)
