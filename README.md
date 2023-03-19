@@ -73,4 +73,4 @@ SOFTWARE.
 
 <img src="Main/assets/images/Website-screenshot.jpg" alt="Screenshot">
 [Alt text](Main/assets/images/Website-screenshot.jpg)
-[deploy-link](https://baldoracle.github.io/Module-2/)
+[deploy-link](https://baldoracle.github.io/Portfolio/)
