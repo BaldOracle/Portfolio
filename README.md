@@ -1,9 +1,8 @@
-# Module-2-Challenge
-Module 2 challenge
+# Portfolio
 
 ## Description
+An introduction of myself, and the showing some of my projects. 
 
-This website is a weekly challenge for my full stack coding boot camp. The goal was:
 ### User Story
 
 ```
