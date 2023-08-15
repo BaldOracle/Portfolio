@@ -15,7 +15,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Chalkduster', 'monospace', 'Trebuchet', sans-serif;
-  color: var(--secondary);
+  color: var(--dark);
   background-color: var(--tertiary);
   line-height: 1.5;
 }
@@ -43,7 +43,7 @@ header {
 
 header h1 {
   color: var(--tertiary);
-  background-color: var(--secondary);
+  background-color: var(--dark);
   padding: 5px 1% 5px 6%;
   margin: 0;
   font-size: 5vw;
@@ -58,7 +58,7 @@ nav {
 
 nav a {
   padding: 5px 10px;
-  color: var(--secondary);
+  color: var(--dark);
   margin-right: 10px;
   background-size: 100% 0.2em;
   transition: all 0.25s ease-in;
@@ -208,60 +208,65 @@ p {
   padding: left;
 }
 
-/* CSS for all pictures added hover feature. Custom class for VSU to be the largest.  */
+/* CSS for all pictures added hover feature. Custom class for project1 to be the largest.  */
 
-.Module {
-  background-image: url(../images/Module-1.jpg);
-  background-size: cover;
-  background-position: center;
+.project2 {
+  background-image: url(../images/WeatherScreenShot.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
   color: #0C0E0E;
   } 
 
-.Module:hover {
+.project2:hover {
   transform: scale(1.05);
 }
 
-.NJ {
-  background-image: url(../images/Randy-Booth-Co.jpg);
-  background-size: cover;
-  background-position: center;
+.project4 {
+  background-image: url(../images/teamProfileGenerator.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
   color: #0C0E0E;
 } 
 
-.NJ:hover {
+.project4:hover {
   transform: scale(1.05);
 }
 
-.Pre {
-  background-image: url(../images/Randy-Booth-Co.jpg);
-  background-size: cover;
-  background-position: center;
+.project5 {
+  background-image: url(../images/timedQuizScreenshot.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
   color: #0C0E0E;
 } 
 
-.Pre:hover {
+.project5:hover {
   transform: scale(1.05);
 }
 
-.VSU {
-  background-image: url(../images/VSU.jpg);
-  background-size: cover;
-  background-position: center;
-  color: #0C0E0E;
-} 
-
-.VSU:hover {
-  transform: scale(1.05);
-}
-
-.Waffle {
+.project1 {
   background-image: url(../images/JoyRide-map.jpg);
-  background-size: cover;
-  background-position: center;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
   color: #0C0E0E;
 } 
 
-.Waffle:hover {
+.project1:hover {
+  transform: scale(1.05);
+}
+
+.project3 {
+  background-image: url(../images/passwordScreenshot.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  color: #0C0E0E;
+} 
+
+.project3:hover {
   transform: scale(1.05);
  }
 
